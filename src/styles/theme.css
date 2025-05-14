@@ -1,0 +1,44 @@
+@theme {
+  --color-nexfron-red: #ea5145;
+  --color-nexfron-black: #323232;
+  --color-nexfron-gray: #494949;
+}
+
+@layer components {
+  .blue_btn {
+    color: white;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: #006fffad;
+    transition: 0.3s all;
+    &:hover {
+      background: #006fff;
+      cursor: pointer;
+    }
+  }
+  .blue-button-theme {
+    color: #217efc;
+    background: #cee7fd;
+  }
+  .purple-button-theme {
+    color: #8f64f2;
+    background: #d4c2fe;
+  }
+  .red-button-theme {
+    color: #f36447;
+    background: #fac0b4;
+  }
+  .yellow-button-theme {
+    color: #eea832;
+    background: #ffe3b3;
+  }
+  .green-button-theme {
+    color: #1ad498;
+    background: #cdfcec;
+  }
+  .navy-button-theme {
+    color: #b9cad8;
+    background: #1e2633;
+  }
+}

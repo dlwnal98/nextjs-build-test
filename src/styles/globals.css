@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind utilities;
+@import "./theme.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "pretendard";
+  color: #333;
+}
+
+button,
+select,
+a,
+input[type="checkbox"],
+input[type="radio"],
+label {
+  cursor: pointer;
+}
+
+table {
+  font-size: 14px;
+}
+
+table th {
+  background: #f1f5f8;
+}
+
+table tr {
+  border: 1px solid #dde2e7;
+}
